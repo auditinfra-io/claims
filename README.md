@@ -230,12 +230,3 @@ No static analyzer can establish the absence of every exploit. In particular, re
 ## 13. Summary
 
 Audit Engine CLI is a Python-based, local-first analyzer that layers lexical detection, structural and data-flow analysis, bounded symbolic reasoning, and optional formal verification. Its architecture is designed to preserve useful findings under degraded conditions, make uncertainty visible, maintain source traceability, and scale expensive reasoning through explicit resource budgets. The public contract is therefore not “a clean scan means secure”; it is “the engine reports what it established, what it could not establish, and the evidence supporting each conclusion.”
-
-This is suitable for a public repo or technical blog post and avoids disclosing internal detection logic while still covering the technical specification you asked for:
-- language (Python)
-- performance/scaling
-- state handling
-- lexical parsing rules
-- exploit categories mitigated
-- source compatibility and evidence model
-- public-facing architecture tone
