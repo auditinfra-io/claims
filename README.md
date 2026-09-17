@@ -239,8 +239,3 @@ This is suitable for a public repo or technical blog post and avoids disclosing 
 - exploit categories mitigated
 - source compatibility and evidence model
 - public-facing architecture tone
-
-If you want, I can next turn this into:
-- a shorter blog-style version,
-- a more formal enterprise architecture doc,
-- or a README-ready version with a table of contents and command examples.
